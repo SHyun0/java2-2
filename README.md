@@ -9,8 +9,8 @@ ctrl + shift + p -> Creat Java Project -> No Bulid tools -> 폴더선택 -> 프�
 -어셈블러어 : 기계어 명령을 표현하기 쉬운 상징적인 단어로 일대일 대응시킨 언어  
 -고급언어 : 사람이 이해하기 쉽고, 복잡한 작업, 알고리즘, 자료구를 표현하기 위한 언어  
 
--자바 응용프로그램 실행  
-main() 메소드를 가진 클래스의 mamin()에서 실행시작  
+자바 응용프로그램 실행  
+-main() 메소드를 가진 클래스의 mamin()에서 실행시작  
 JDK(Java Developement Kit)  
 -자바 응용 개발 환경  
 JRE(Java Runtime Environment)  
@@ -18,6 +18,10 @@ JRE(Java Runtime Environment)
 자바 API(Application Programming Interface)
 -JDK에 포함된 클래스 라이브러리  
 
+< 자바의 특징 >  
+플랫폼 독립성, 객체지향, 캡슐화, 실행코드배포  
+패키지, 멀티스레드, 가비지 컬렉션  
+프로그램 작성 쉬움
 
 ## 3월15일
 내용
