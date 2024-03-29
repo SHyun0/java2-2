@@ -26,6 +26,20 @@ System.in
 비트 논리 연산 : 피 연산자의각 비트들을 대상으로 하는 연산  
 비트 시프트 연산 : 비트를 오른쪽이나 왼쪽으로 이동  
 
+< 조건문 >
+단순 if문 / if-else문 / 다중 if문 / switch문  
+switch문 내 break문을 만나면 switch문 벗어남  
+
+< 반복문 >
+for 문, while 문, do-while 문  
+중첩 반복  
+countiue문  
+break문  
+
+< 자바 배열 >
+인덱스와 인덱스에 대응하는 데이터들로 이루어진 자료 구조  
+배열 인덱스(0부터 시작)  
+
 ## 3월22일
 ctrl + shift + p -> Creat Java Project -> No Bulid tools -> 폴더선택 -> 프로젝트/이름생성(Test)  
 새로만든 폴더(Test)에서 파일 복사 후 기존 폴더(java2-2)에 붙여넣기 - src/App.java 실행 테스트  
