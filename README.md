@@ -84,17 +84,17 @@ new String() 으로 생성된 스트링
 자바의 접근 지정자 (4가지)  
 - private, protected, public, 디폴트  
 
-<static 맴버>
+<static 맴버>  
 static 맴버는 클래스당 하나만 생성  
 객체들에 의해 공유됨  
 
-<final>
+<final>  
 final 클래스 - 더이상 클래스 상속 불가능  
 final 메소드 - 더이상 오버라이딩 불가능  
 final 필드 - 상수를 선언 할 떄 사용  
 
 <상속>  
-상속 선언
+상속 선언  
 - extends 키워드로 선언  
 - 부모 클래스 -> 슈퍼 클래스  
 - 자식 클래스 -> 서브 클래스  
@@ -237,9 +237,10 @@ break문
 배열 인덱스(0부터 시작)  
 
 ## 3월22일
+<Project 생성하기>  
 ctrl + shift + p -> Creat Java Project -> No Bulid tools -> 폴더선택 -> 프로젝트/이름생성(Test)  
 새로만든 폴더(Test)에서 파일 복사 후 기존 폴더(java2-2)에 붙여넣기 - src/App.java 실행 테스트  
-<오류뜨면 VS code 재실행>  
+(오류뜨면 VS code 재실행)  
 
 < 프로그래밍언어 >  
 - 기계어 : 0.1의 이진수로 구성된 언어  
