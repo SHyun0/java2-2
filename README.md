@@ -51,14 +51,14 @@
 
 
 ## 5월17일
-<FlowLayout>  
+< FlowLayout >  
 - 배치방법 : 컴포넌트를컨테이너내에왼쪽에서오른쪽으로배치  
-- 생성자 : FlowLayout() / FlowLayout(int align, int hGap, int vGap)  
-<BorderLayout>  
+- 생성자 : FlowLayout() / FlowLayout(int align, int hGap, int vGap)   
+< BorderLayout >  
 - 배치방법 : 컨테이너공간을5 구역으로분할, 배치  
 - 생성자 : BorderLayout() / BorderLayout(int hGap, int vGap)  
-add 메소드 -  void add(Component comp, int index)  
-<GridLayout>  
+- add 메소드 -  void add(Component comp, int index)  
+< GridLayout >  
 - 배치방법 : 컨테이너공간을 동일한 사각형격자(그리드)로 분할하고 각 셀에컴포넌트 하나씩 배치  
 - 생성자 : GridLayout() /  GridLayout(int rows, int cols) / GridLayout(int rows, int cols, int hGap, int vGap)  
 
@@ -79,17 +79,17 @@ add 메소드 -  void add(Component comp, int index)
 컬렉션은 제네릭(generics) 기법으로 구현  
 - 제네릭 : 특정타입만다루지않고,여러종류의타입으로변신할수있도록클래스나 메소드를 일반화시키는기법 
 
-<벡터Vector<E>의 특성>  
-- <E>에 사용할요소의특정타입으로구체화  
+<벡터Vector< E >의 특성>  
+- < E >에 사용할요소의특정타입으로구체화  
 - 배열을가변크기로다룰수있게하는컨테이너  
 - Vector에 삽입 가능한 것 : 객체, null / 기본타입의값은Wrapper 객체로만들어저장  
-ArrayList<E>  
+ArrayList< E >  
 - 가변크기배열을구현한클래스  
 - 벡터와거의동일  
-Iterator<E> 인터페이스  
+Iterator < E> 인터페이스  
 - 리스트구조의컬렉션에서요소의순차검색을위한인터페이스  
 
-<HashMap (K,V)>  
+< HashMap (K,V) >  
 - 키(key)와 값(value)의 쌍으로 구성되는 요소를 다루는 컬렉션  
 - 삽입및검색이빠른특징 ( 요소삽입: put() 메소드, 요소검색: get() 메소드 )  
 
