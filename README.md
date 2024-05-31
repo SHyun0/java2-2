@@ -62,7 +62,7 @@
 
 - 팝업다이얼로그 : 사용자에게 메시지를 전달하거나 문자열을 간단히 입력받는 용도  
     OptionPane 클래스를 이용하여 생성
-- 입력다이얼로그-JOptionPane.showInputDialog()   
+- 입력다이얼로그 - JOptionPane.showInputDialog()   
     ㄴ 한줄을입력받는다이얼로그  
 - 확인다이얼로그 - JOptionPane.showConfirmDialog()  
     ㄴ 사용자로부터Yes/No응답을입력받는다이얼로그  
