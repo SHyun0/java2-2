@@ -17,13 +17,13 @@
 - JButton의 용도 : 버튼모양의 컴포넌트. 사용자로부터 명령을 입력받기 위한 목적
 
 ※ 3개의 버튼 이미지  
-- normalIcon  
+ⓐ normalIcon  
     ㄴ버튼의보통상태(디폴트)때출력되는이미지  
     ㄴ생성자에 이미지아이콘 전달 혹은 JButton의 setIcon(normalIcon);   
-- rolloverIcon  
+ⓑ rolloverIcon  
     ㄴ 버튼에마우스가올라갈때출력되는이미지  
     ㄴ 이미지설정메소드: JButton의 setRolloverIcon(rolloverIcon);   
-- pressedIcon  
+ⓒ pressedIcon  
     ㄴ 버튼을누른상태때출력되는이미지  
     ㄴ이미지설정메소드: JButton의 setPressedIcon(pressedIcon)  
 
@@ -48,11 +48,11 @@
     ㄴJMenu의 addSeparator()를 호출하여 삽입함  
 
 ▶ 메뉴 만드는 과정  
-1. JMenuBar 컴포넌트 생성
-2. JMenu 컴포넌트를 생성하여JMenuBar에 붙인다
-3. JMenuItem 컴포넌트를 생성하여JMenu에 붙인다
+1. JMenuBar 컴포넌트 생성  
+2. JMenu 컴포넌트를 생성하여JMenuBar에 붙인다  
+3. JMenuItem 컴포넌트를 생성하여JMenu에 붙인다  
     ㄴ여러 개의 메뉴와 메뉴아이템을생성한다.
-4. JMenuBar 컴포넌트를 JFrame에 붙인다.
+4. JMenuBar 컴포넌트를 JFrame에 붙인다.  
 
 ## 5월24일
 < 이벤트 기반 프로그래밍 >  
